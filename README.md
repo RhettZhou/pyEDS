@@ -1,0 +1,2 @@
+# pyEDS
+Data denoising is urgently needed for high resolution electron microscopy spectroscopy analysis, as the raw data will have different types of noise due to spherical and chromatic aberrations, stigma, vibration, and thermal drift. pyEDS provides a systematic data processing approach to produce high-quality energy dispersive X-ray Spectroscopy (EDS) data analysis for material science study. Here we use the non-rigid registration (NRR) to reduce image distortion and non-local principal component analysis to increase signal-to-noise ratio.
