@@ -3,7 +3,7 @@
 ## 1.0 Introduction
 __________________________________________________________________________________________________________________________________________________________________
 
-Data denoising is urgently needed for high resolution electron microscopy spectroscopy analysis, as the raw data will have different types of noise due to spherical and chromatic aberrations, stigma, vibration, and thermal drift. pyEDS provides a systematic data processing approach to produce high-quality energy dispersive X-ray Spectroscopy (EDS) data analysis for material science study. Here we use the non-rigid registration (NRR) to reduce image distortion and non-local principal component analysis (NLPCA) to increase signal-to-noise ratio.
+Data denoising is urgently needed for high resolution electron microscopy spectroscopy analysis, as the raw data will have different types of noise due to spherical and chromatic aberrations, stigma, vibration, and thermal drift. pyEDS provides a systematic data processing approach to produce high-quality energy dispersive X-ray spectroscopy (EDS) data analysis for material science studies. Here we use the non-rigid registration (NRR) to reduce image distortion and non-local principal component analysis (NLPCA) to increase the signal-to-noise ratio.
 
 The NRR step is conducted by using Jupyter notebook. In principle, all the data analysis can be done in the windows system. However, the NRR is a sluggish step causing a huge amount of CPU time. Therefore, we specifically prepared the port for Linux job submissions. Please refer to the Jupyter notebook for the details. 
 Non-local principal component analysis for increase signal-to-noise ratio is conducted in Matlab.  
@@ -20,7 +20,7 @@ Reference
 
 [5] Niels Cautaerts, pymatchSeries:10.5281/zenodo.4506873
 
-
+Please site the paper: Xuyang Zhou, Olga Kasian, Ting Luo, Se-Ho Kim, Chenyu Zhang, Siyuan Zhang, Subin Lee, Gregory B. Thompson, Gerhard Dehm, Baptiste Gault, Dierk Raabe, Chemical Partitioning at Crystalline Defects in PtAu as a Pathway to Stabilize Electrocatalysts, submitted 2022.
 
 ## 2.0 Installation
 
