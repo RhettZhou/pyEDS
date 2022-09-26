@@ -120,6 +120,9 @@ You can run NRR in Linux using the following steps:
 
 -> nohup ./lambda_0.sh &>/dev/null &
 
+or
+
+-> sbatch lambda_0.sh
 __________________________________________________________________________________
 
 Open Jupyter notebook in Linux for running
