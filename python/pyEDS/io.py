@@ -215,10 +215,10 @@ def generate_batch(base,group,para,nrr_system,system_path_1='',system_path_2='',
             print(submission_file)
             f2 = open(submission_file,"w+")
             f2.write('#!/bin/sh\n\n')
-            f2.write('#SBATCH --job-name=Test_' + str(isubmission) + '\n')
-            f2.write('#SBATCH --error=Test_' + str(isubmission) + '.err\n')
-            f2.write('#SBATCH --output=Test_' + str(isubmission) + '.out\n')
-            f2.write('#SBATCH --time=500:00:00\n')                              # Rhett changed here 20220925
+            f2.write('#SBATCH --job-name=NRR_' + str(isubmission) + '\n')
+            f2.write('#SBATCH --error=NRR_' + str(isubmission) + '.err\n')
+            f2.write('#SBATCH --output=NRR_' + str(isubmission) + '.out\n')
+            f2.write('#SBATCH --time=24:00:00\n')                              # Rhett changed here 20220926
             f2.write('#SBATCH --nodes=1\n')
             f2.write('#SBATCH --ntasks=2\n')
             f2.write('##SBATCH --export=ALL\n')
