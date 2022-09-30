@@ -48,6 +48,8 @@ ________________________________________________________________________________
 
 -> pip install opencv-python
 
+-> pip install h5py==3.3.0
+
 ---- Be careful: you must install the package using the pip in your environment. Sometimes the direct use “pip” will fail because the system cannot use the packages in your base environment. You will get error messages, such as “No module named 'cv2’”.  To solve this issue, you could run the following codes. You could use the following steps to fix the issue.
 
 -> where pip
@@ -73,6 +75,8 @@ ________________________________________________________________________________
 -> conda install -c conda-forge match-series
 
 -> pip install opencv-python
+
+-> pip install h5py==3.3.0
 
 __________________________________________________________________________________
 
