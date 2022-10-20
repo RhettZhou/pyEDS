@@ -1,3 +1,7 @@
+"""
+This code is written by Dr. Niels Cautaerts, pymatchSeries:10.5281/zenodo.4506873
+"""
+
 import re
 import os
 import sys
