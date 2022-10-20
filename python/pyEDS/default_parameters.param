@@ -1,4 +1,5 @@
 #############
+# This code is written by Dr. Niels Cautaerts, pymatchSeries:10.5281/zenodo.4506873
 ### Input ###
 #############
 # the path and naming pattern of the image series. When using the python wrapper this will be filled out automatically
