@@ -1,4 +1,5 @@
 """
+This code is written by Dr. Niels Cautaerts, pymatchSeries:10.5281/zenodo.4506873
 Module that includes tools for converting experimental data into the
 file structure required for match-series
 """
