@@ -22,6 +22,8 @@ Reference
 
 Please site the paper: Xuyang Zhou, Olga Kasian, Ting Luo, Se-Ho Kim, Chenyu Zhang, Siyuan Zhang, Subin Lee, Gregory B. Thompson, Gerhard Dehm, Baptiste Gault, Dierk Raabe, Chemical Partitioning at Crystalline Defects in PtAu as a Pathway to Stabilize Electrocatalysts, submitted 2022.
 
+Please also cite the above references as they are the source on which the current pyEDS was built.
+
 ## 2.0 Installation
 
 __________________________________________________________________________________________________________________________________________________________________
